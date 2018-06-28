@@ -6,7 +6,7 @@ addons:
         packages:
             - gcc-avr
             - avr-libc
-            - wget
+            - libmpfr-dev libgmp-dev libmpc-dev texinfo libncurses5-dev bison flex
 
 cache:
   directories:
