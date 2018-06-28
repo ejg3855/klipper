@@ -50,10 +50,10 @@ if [ ! -f ${PRU_FILE} ]; then
     tar cfz ${PRU_FILE} ${PRU_DIR}
 else
     cd ${BUILD_DIR}
-    tar xfz ${PRU_FILE}
+    tar tfz ${PRU_FILE}
 fi
 
-ls -lR ${PRU_DIR}
+#ls -lR ${PRU_DIR}
 
 
 ######################################################################
